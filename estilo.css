@@ -1,0 +1,376 @@
+/* Pantalla celular */
+@media only screen and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: linear-gradient(to top, white ,#64b43d , #3a8b11);
+    }
+    .caja1{
+        background-color: #78c054;
+        width: 250px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        margin: 10px;
+        
+    }
+    
+    body{
+        background-color: white;
+    }
+    
+    h1{
+        color:black ;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    h2{
+        color: black ;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    h3{
+        color: rgb(52,129,8) ;
+        text-align: right;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    .modif{
+        color: rgb(52,129,8) ;
+        text-align: left;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    
+    h4{
+        color:rgb(146, 235, 102) ;
+    }
+    .txt{
+        color: white;
+        font-style: italic;
+        align-content: space-around;
+    }
+    nav{
+        padding: 1rem;
+    }
+    div{
+        margin: 10px;
+    }
+    .menu{
+        list-style-type: none;
+        margin: 5px;
+       
+    }
+    .menu li{
+        display:inline-block;
+        text-align: center;
+        margin: 10px;
+        background-color: rgb(88, 163, 50);
+        padding: 10px;
+    }
+    .menu li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu li:hover{
+        background-color:  rgb(112, 206, 65);
+        color: white;
+        border-radius: 10%;
+    }
+    .cajaIndex{
+        width: 90%;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 1 fr;
+        grid-template-rows: 2 fr auto;
+        column-gap: 5px;
+        row-gap: 5px;
+        grid-template-areas: 
+        "caja1" 
+        "img" ;
+        gap: 5px;
+    }
+    
+    
+    .gridArgenetics{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1 fr;
+        grid-template-rows: 8 fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        grid-template-areas: 
+        "gridArgenetics"
+        "gridArgenetics"
+        "gridArgenetics"
+        "gridArgenetics"
+        "gridArgenetics"
+        "gridArgenetics"
+        "gridArgenetics"
+        "gridArgenetics"
+         ;
+        gap: 100px;
+       
+    }
+
+    .gridNord{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1 fr;
+        grid-template-rows: 8 fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        grid-template-areas: 
+        "gridNord"
+        "gridNord"
+        "gridNord"
+        "gridNord"
+        "gridNord"
+        "gridNord"
+        "gridNord"
+        "gridNord"
+        "gridNord";
+        gap: 50px;
+       
+    }
+
+    .gridSurcos{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1 fr;
+        grid-template-rows: 3 fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        grid-template-areas: 
+        "gridSurcos"
+        "gridSurcos"
+        "gridSurcos";
+        gap: 50px;
+       
+    }
+    h2{
+        margin: 2rem;
+        text-align: center;
+        background-color: rgb(120, 192, 84);
+        
+    }
+    
+    .img{
+        
+        margin: 10px;
+        list-style-type: none;
+        border: 5px double;
+        
+    }
+    
+    img:hover{
+        opacity: 1;
+        border: solid white;
+    }
+    
+    
+    .logo{
+        margin: 30px;
+        padding-left: 30px;
+    }
+}
+/* Pantalla PC */
+@media only screen and (min-width: 481px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: linear-gradient(to top, white ,#64b43d , #3a8b11);
+    }
+    .caja1{
+        background-color: #78c054;
+        width: 250px;
+        padding-top: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        margin: 10px;
+    }
+
+    .cajaIndex{
+        width: 90%;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 2 fr;
+        grid-template-rows: 1 fr auto;
+        column-gap: 5px;
+        row-gap: 5px;
+        grid-template-areas: 
+        "caja1 img" ;
+        gap: 5px;
+    }
+    
+    body{
+        background-color: white;
+    }
+    
+    h1{
+        color:black ;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    h2{
+        color: black ;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    h3{
+        color: rgb(52,129,8) ;
+        text-align: right;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    .modif{
+        color: rgb(52,129,8) ;
+        text-align: left;
+        font-family: 'Ibarra Real Nova', serif;
+    }
+    
+    h4{
+        color:rgb(146, 235, 102) ;
+    }
+    .txt{
+        color: white;
+    }
+    nav{
+        padding: 1rem;
+    }
+    div{
+        margin: 10px;
+    }
+    .menu{
+        list-style-type: none;
+        margin: 5px;
+    }
+    .menu li{
+        display:inline-block;
+        text-align: center;
+        margin: 10px;
+        background-color: rgb(88, 163, 50);
+        padding: 10px;
+    }
+    .menu li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu li:hover{
+        background-color:  rgb(112, 206, 65);
+        color: white;
+        border-radius: 10%;
+    }
+    
+
+    
+    .gridArgenetics{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 4 fr;
+        grid-template-rows: 3 fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        grid-template-areas: 
+        "gridArgenetics gridArgenetics gridArgenetics gridArgenetics"
+        "gridArgenetics gridArgenetics gridArgenetics gridArgenetics"
+        "gridArgenetics gridArgenetics gridArgenetics gridArgenetics";
+        gap: 100px;
+       
+    }
+
+    .gridNord{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 4 fr;
+        grid-template-rows: 2 fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        grid-template-areas: 
+        "gridNord gridNord gridNord gridNord"
+        "gridNord gridNord gridNord gridNord";
+        gap: 90px;
+       
+    }
+
+    .gridSurcos{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1 fr;
+        grid-template-rows: 1 fr;
+        column-gap: 5px;
+        row-gap: 5px;
+        align-content: space-around;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        grid-template-areas: 
+        "gridSurcos gridSurcos gridSurcos gridSurcos";
+        gap: 100px;
+       
+    }
+
+    .Contacto{
+        width: 95%;
+        margin: 10px auto;
+    }
+    .Representantes{
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    h2{
+        margin: 2rem;
+        text-align: center;
+        background-color: rgb(120, 192, 84);
+        
+    }
+    
+    .img{
+        
+        margin: 10px;
+        list-style-type: none;
+        border: 5px double;
+        
+    }
+    
+    img:hover{
+        opacity: 1;
+        border: solid white;
+    }
+    
+    
+    .logo{
+        margin: 30px;
+        padding-left: 30px;
+    }
+}
