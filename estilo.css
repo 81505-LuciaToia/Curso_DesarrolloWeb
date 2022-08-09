@@ -4,7 +4,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: linear-gradient(to top, white ,#64b43d , #3a8b11);
+        
     }
     .caja1{
         background-color: #78c054;
@@ -19,6 +19,7 @@
     
     body{
         background-color: white;
+        background: linear-gradient( rgb(232, 245, 185) , #abe98c);
     }
     
     h1{
@@ -74,7 +75,8 @@
     .menu li:hover{
         background-color:  rgb(112, 206, 65);
         color: white;
-        border-radius: 10%;
+        border-radius: 20%;
+        
     }
     .cajaIndex{
         width: 90%;
@@ -164,6 +166,13 @@
         gap: 50px;
        
     }
+
+    .grilla{
+        width: 95%;
+        margin: 10px;
+        text-align: center;
+    }
+
     h2{
         margin: 2rem;
         text-align: center;
@@ -182,6 +191,7 @@
     img:hover{
         opacity: 1;
         border: solid white;
+        transform: scale(1.1, 1.1);
     }
     
     
@@ -196,7 +206,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: linear-gradient(to top, white ,#64b43d , #3a8b11);
+        
     }
     .caja1{
         background-color: #78c054;
@@ -223,6 +233,7 @@
     
     body{
         background-color: white;
+        background: linear-gradient( rgb(232, 245, 185) , #abe98c);
     }
     
     h1{
@@ -371,6 +382,7 @@
     img:hover{
         opacity: 1;
         border: solid white;
+        transform: scale(1.1, 1.1);
     }
     
     
@@ -378,4 +390,12 @@
         margin: 30px;
         padding-left: 30px;
     }
+
+    .grilla{
+        width: 90%;
+        margin: 60px;
+        text-align: center;
+    }
+
+
 }
