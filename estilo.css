@@ -147,8 +147,8 @@
     }
 
     .gridSurcos{
-        width: 95%;
-        margin: 10px auto;
+        width: 70%;
+        margin: 5px auto;
         display: grid;
         flex-wrap: wrap;
         grid-template-columns: 1 fr;
@@ -167,12 +167,12 @@
        
     }
 
-    .grilla{
-        width: 95%;
-        margin: 10px;
+    .table{
+        width: 90%;
+        margin: 60px;
         text-align: center;
     }
-
+    
     h2{
         margin: 2rem;
         text-align: center;
@@ -259,7 +259,7 @@
     h4{
         color:rgb(146, 235, 102) ;
     }
-    .txt{
+    .lead{
         color: white;
     }
     nav{
@@ -270,12 +270,12 @@
     }
     .menu{
         list-style-type: none;
-        margin: 5px;
+        margin: 2px;
     }
     .menu li{
         display:inline-block;
         text-align: center;
-        margin: 10px;
+        margin: 5px;
         background-color: rgb(88, 163, 50);
         padding: 10px;
     }
@@ -332,18 +332,17 @@
     }
 
     .gridSurcos{
-        width: 95%;
+        width: 108%;
         margin: 10px auto;
         display: grid;
         flex-wrap: wrap;
         grid-template-columns: 1 fr;
         grid-template-rows: 1 fr;
-        column-gap: 5px;
+        column-gap: 10px;
         row-gap: 5px;
-        align-content: space-around;
         align-items: center;
         justify-content: center;
-        align-self: stretch;
+        align-self: center;
         grid-template-areas: 
         "gridSurcos gridSurcos gridSurcos gridSurcos";
         gap: 100px;
@@ -391,10 +390,11 @@
         padding-left: 30px;
     }
 
-    .grilla{
+    .table{
         width: 90%;
-        margin: 60px;
+        margin: 85px;
         text-align: center;
+        
     }
 
 
