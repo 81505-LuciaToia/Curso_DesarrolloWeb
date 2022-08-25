@@ -1,0 +1,67 @@
+$back-color: darkcyan; 
+$grilla-color: rgb(60, 66, 66);
+footer{
+    background-color:$back-color;
+}
+h1{
+    font-size: 2rem;
+    
+}
+
+@mixin imagenes{
+    justify-content:space-around;
+    padding: 50px;
+    display:contents;
+    &:hover{
+        border-radius: 20%;
+    }
+}
+
+@mixin productos{
+    justify-content:space-around;
+    padding: 50px;
+    display:contents;
+}
+
+@mixin table{
+    background-color: $grilla-color; 
+    color: blanchedalmond;
+    text-align: center;
+}
+
+main{
+        background-color: $back-color;
+        h2{
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .gridArgenetics{
+            @include productos;
+            
+            .grillaImagenes{
+                @include imagenes
+            }
+        }
+
+        .gridNord{
+            @include productos;
+            
+            .grillaImagenes{
+                @include imagenes
+            }
+            
+        }
+
+        .gridSurcos{
+            @include productos;
+            
+            .grillaImagenes{
+                @include imagenes
+            }
+        }
+}
+
+table{
+    @include table;
+}
